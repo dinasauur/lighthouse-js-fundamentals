@@ -1,8 +1,8 @@
 const packingList = ["bowls", "plates", "pots", "pans", "eating utensils", "glasses", "cups", "cooking utensils"];
 
 console.log("Kitchen stuff to pack:");
-for (let list of packingList) {
-  console.log(list);
+let i = 0;
+while (i < packingList.length) {
+  console.log(packingList[i]);
+  i++;
 }
-
-console.log(packingList[3]);
